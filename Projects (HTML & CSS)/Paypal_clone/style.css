@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    font-family: Arial; 
+    border: border-box;
+    
+}
+
+/** nav-bar **/
+
+.nav-bar {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.logo {
+    height: 43px;
+    width: 136px;
+    background-image: url("Paypal_logo.png");
+    background-size: cover;
+    margin-top: 2px;
+   
+   
+}
+
+.nav-options {
+    font-size: 14px;
+    display: flex;
+    
+}
+
+.option {
+    margin-left: 35px;
+    color: #2c2e2f;
+    
+   
+}
+
+.log-signOptions {
+    height: 52px;
+    width: 174px;
+    display: flex;
+
+}
+
+.box {
+    height: 38px;
+    width: 84px;
+    border: 1px solid #0070ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+    margin-top: 6px;
+    border-radius: 20px;
+    font-size: 12px;
+
+}
+
+.log {
+    color: #0070ba;
+}
+
+.sign {
+    background-color: #0070ba;
+    color: white;
+}
+
+/** hero-section **/
+
+.hero-section {
+    height: 30.125rem;
+}
+
+.hero-image {
+    height: 30.125rem;
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+}
+
+.hero-content {
+    height: 16.875rem;
+    width: 1122px;
+    color: #ffffff;
+   padding-top: 130px;
+   padding-left: 260px;
+   
+    
+   
+
+}
+
+.heading {
+    width: 31.18rem;
+    height: 6rem;
+    font-size: 20px;
+    
+    
+}
+
+.description {
+    width: 29rem;
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+
+.hero-options {
+    height: 40px;
+    width: 300px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.option1 {
+    width: 97px;
+   
+}
+
+.option2 {
+    width: 156px;
+    
+ 
+}
+
+.boxes {
+    border: 2px solid #ffffff;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    margin-top: 6px;
+    border-radius: 20px;
+  
+
+
+}
+
+
+/** panel **/
+
+.panel {
+    height: 156px;
+    background-color: #001435;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.panel-content1 {
+    font-size: 24px;
+}
+
+.panel-content2 {
+    font-size: 21px;
+}
+
+.panel-box {
+    height: 36px;
+    width: 170px;
+    margin: 20px;
+    border: 1px solid #0070E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    border-radius: 20px;
+    background-color: #0070E0;
+}
+
+/** panel2 **/
+
+.panel2 {
+    height: 680px;
+}
+
+.panel2 h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 60px;
+    color: #001c64;
+}
+
+.panel-boxes {
+    display: flex;
+    margin-left: 230px;
+    margin-top: 50px;
+   
+}
+
+.panel-box1 {
+    height: 524px;
+    width: 350px;
+    margin-right: 12px;
+    
+}
+
+.image {
+    height: 258px;
+    width: 350px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.panel-box1 h3 {
+    padding-top: 30px;
+    color: #001c64;
+    font-size: 24px;
+}
+
+.panel-box1 p {
+    padding-top: 15px;
+    color: #001435;
+    font-size: 16px;
+    
+}
+
+.panel-box1 a {
+    color: #0070BA;
+}
+
+.panel-bottom {
+    width: 350px;
+    height: 54px;
+}
+
+.panel-bottom div {
+    height: 38px;
+    background-color: #0070E0;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    border-radius: 20px;
+}
+
+.opt1 {
+    width: 108px;
+    margin-top: 40px;
+}
+
+.opt2 {
+    width: 146px;
+    margin-top: 20px;
+}
+
+.opt3 {
+    width: 132px;
+    margin-top: 35px;
+}
+
+/** business section **/
+
+.payment-info {
+    height: 633px;
+    background-color: #001435;
+    color: #ffffff;
+    display: flex;
+}
+
+.pypl_business_section {
+    margin-left: 230px;
+    padding-top: 65px;
+}
+
+
+.pypl_business_section h2 {
+    font-size: 32px;
+}
+
+
+.p-1_1 {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.p-1_2 {
+    font-size: 16px;
+    padding-top: 12px;
+
+}
+
+.p-1_3 {
+    height: 34px;
+    width: 163px;
+    background-color: #0070E0;
+    font-size: 13px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.para2 {
+    margin-top: 50px;
+}
+
+.section-image {
+    height: 498px;
+    width: 500px;
+    background-image: url("payment-section_image.png");
+    background-size: cover;
+    margin-top: 70px;
+    margin-left: 100px;
+  
+}
+
+/** section **/
+
+section {
+    height: 426px;
+    background-color: #f3f2f7;
+}
+
+.feature_heading {
+    font-size: 22px;
+    color: #001c64;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+   
+}
+
+.feature {
+    display: flex;
+    padding-top: 60px;
+}
+
+.icon {
+    height: 73px;
+    width: 73px;
+    background-size: cover;
+
+}
+
+.feature_subpara h3 {
+    height: 73px;
+    width: 447px;
+    font-size: 23px;
+    color: #001435;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 163px;
+    padding: 0px 55px;
+}
+
+.bottom-section h2{
+    font-size: 30px;
+}
+
+
+/** bottom-section **/
+
+.bottom-section {
+    background-color: #ffffff;
+}
+
+.logo-container {
+    height: 56px;
+    width: 1120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    margin-left: 210px;
+}
+
+.logos {
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos img {
+    width: 125px;
+}
+
+.logo-1 img {
+    height: 39px;
+}
+
+.logo-2 img {
+    height: 38px;
+}
+
+.logo-3 img {
+    height: 50px;
+}
+
+.logo-4 img {
+    height: 45px;
+}
+
+.logo-5 img {
+    height: 32px;
+    width: 165px;
+}
+
+
+/** pull section **/
+
+.pull-section {
+    height: 278px;
+    background-color: #0070E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.text-block {
+    width: 1120px;
+    height: 158px;
+    text-align: center;
+}
+
+.pull-text {
+    height: 83px;
+    width: 1019px;
+    color: #ffffff;
+    font-size: 23px;
+
+}
+
+.pull-button {
+    width: 136px;
+    height: 38px;
+    margin-top: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #113374;
+   
+}
+
+.button {
+    height: 39px;
+    display: flex;
+    justify-content: center;
+}

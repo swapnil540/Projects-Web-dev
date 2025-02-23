@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+.heading {
+    height: 30px;
+    width: 200px;
+    background-color:blanchedalmond;
+    color: red;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+    animation-name: floating;
+    animation-duration: 20s;
+    transition-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+    from {
+        transform: translate(0px);
+    }
+
+    to {
+        transform: translate(1500px);
+    }
+}
